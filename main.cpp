@@ -326,7 +326,7 @@ void connect(string account,string password,string isp){
      account = ",0," + account + "@cmcc";
     else if (isp == "NJUPT-CHINANET")
         account = ",0," + account + "@njxy";
-    else if (isp == "NJUPT-CHINANET")
+    else if (isp == "NJUPT")
         account = ",0," + account;
 
 
@@ -336,7 +336,7 @@ void connect(string account,string password,string isp){
             {"R3", "0"},
             {"R6", "0"},
             {"para", "0"},
-            {"0MKKey", "123456 "},
+            {"0MKKey", "123456"},
             {"buttonClicked", ""},
             {"redirect_url", ""},
             {"err_flag", ""},
